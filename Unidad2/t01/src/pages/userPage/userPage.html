@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Bienvenido Usuario
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-card #myCard *ngFor="let deporte of deportesrest.deportes">
+        <img [src]="deporte.pic" />
+        <ion-card-content>
+            <ion-card-title>
+                {{deporte.title}}
+            </ion-card-title>
+            <p>
+                {{deporte.descri}}
+            </p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

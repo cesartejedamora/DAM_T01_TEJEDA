@@ -1,0 +1,12 @@
+[
+    {
+        "usuario":"Cesar",
+        "password":"12345",
+        "photo":"http://hombrenaturaleza.org.mx/wp-content/uploads/2017/04/hn-home-icon-01-256x256.png"
+    },
+    {
+        "usuario":"Tejeda",
+        "password":"12345",
+        "photo":"https://s3.amazonaws.com/files.rcnradio.com/public/migration/Frank-Swain.jpeg"
+    }
+]
